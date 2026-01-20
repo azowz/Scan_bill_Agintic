@@ -1,3 +1,13 @@
+# Environment & secrets
+.env
+.env.local
+.env.*
+!.env.example
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyc
 *.pyo
 *.pyd
 *.so
@@ -12,3 +22,60 @@ dist/
 venv/
 env/
 ENV/
+
+# Tooling & testing caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+.python-version
+
+# Node / frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tsbuildinfo
+frontend/node_modules/
+frontend/.next/
+frontend/.nuxt/
+frontend/dist/
+frontend/Saudi Stock Market Dashboard/node_modules/
+frontend/Saudi Stock Market Dashboard/.next/
+frontend/Saudi Stock Market Dashboard/dist/
+
+# Logs & temp files
+logs/
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# Docker & deployment
+docker-compose.override.yml
+.dockerignore
+
+# IDEs & editors
+.idea/
+.vscode/
+
+# Operating system junk
+.DS_Store
+Thumbs.db
+
+# Data & caches
+*.sqlite3
+*.db
+data/
+/data/
+
+# Research notebooks
+backend/notebooks/.ipynb_checkpoints/
+
+# Project-specific compiled assets
+frontend/Saudi Stock Market Dashboard/nginx.conf.swp
+
+*/.cache/*
