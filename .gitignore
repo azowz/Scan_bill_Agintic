@@ -1,46 +1,14 @@
-# Environment variables
-.env
-
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
+*.pyo
+*.pyd
 *.so
-.Python
-env/
-venv/
-ENV/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
 *.egg-info/
-.installed.cfg
+build/
+dist/
 *.egg
-
-# Database files
-invoices_db.json
-
-# Temporary uploads
-temp_uploads/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# OS
-.DS_Store
-Thumbs.db
-
-.venv
+*.manifest
+*.spec
+.Python
+.venv/
+venv/
+env/
+ENV/
